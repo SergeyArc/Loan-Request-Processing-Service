@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit colors="true"
+         verbose="true"
+         convertErrorsToExceptions="true"
+         convertWarningsToExceptions="true"
+         stopOnFailure="false">
+    <testsuites>
+        <testsuite name="unit">
+            <directory>./tests/unit</directory>
+        </testsuite>
+    </testsuites>
+
+    <php>
+        <env name="YII_ENV" value="test"/>
+        <env name="YII_DEBUG" value="1"/>
+    </php>
+</phpunit>
